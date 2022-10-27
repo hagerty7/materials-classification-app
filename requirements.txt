@@ -2,8 +2,6 @@ cython
 setuptools-rust
 streamlit
 torch
-torchvision
-torchaudio
 transformers
 Pillow
 numpy
