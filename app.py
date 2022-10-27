@@ -20,8 +20,6 @@ def main():
     st.markdown("1. Split an image into a grid of sub-image patches")  
     st.markdown("2. Embed each patch with a linear projection")  
     st.markdown("3. Each embedded patch becomes a token, and the resulting sequence of embedded patches is the sequence you pass to the model.")  
-    vit=Image.open("pic/ViT.png")
-    st.image(vit)
     st.markdown("The Transformer is trained with 30 epochs, with Adam as the optimization regime. The overall accuracy on the test set is roughly 95% with an AUC of 0.92.")
     st.markdown("## Resource Links")  
     st.markdown("[vit-base-patch16-224-in21k](https://huggingface.co/google/vit-base-patch16-224-in21k)")  
