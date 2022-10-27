@@ -1,0 +1,7 @@
+cython
+setuptools-rust
+streamlit
+transformers
+Pillow
+numpy
+jinja2==3.0.1
