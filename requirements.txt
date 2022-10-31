@@ -1,7 +1,7 @@
 cython
 setuptools-rust
 streamlit
-torch==1.11.0+cpu
+torch --extra-index-url https://download.pytorch.org/whl/cpu
 transformers
 Pillow
 numpy
